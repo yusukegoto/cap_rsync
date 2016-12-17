@@ -14,6 +14,7 @@ using [bradrak/capistrano-rsync](https://github.com/Bladrak/capistrano-rsync).
 
 ```bash
 $ bundle install
+$ vagrant plugin install vagrant-vbguest
 $ vagrant up
 $ ssh-agent $SHELL
 $ ssh-add ./.vagrant/machines/default/virtualbox/private_key
