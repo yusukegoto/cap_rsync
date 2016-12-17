@@ -1,6 +1,6 @@
 # README
 
-This repository is for training for capistrano rsync.
+This repository is for training of capistrano rsync.
 
 using [bladrak/capistrano-rsync](https://github.com/Bladrak/capistrano-rsync).
 
