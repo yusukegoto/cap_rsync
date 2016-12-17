@@ -5,6 +5,8 @@ set :application, "cap_rsync"
 set :repo_url, "."
 set :scm, :rsync
 
+set :rsync_options, %(--archive --delete)
+
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
