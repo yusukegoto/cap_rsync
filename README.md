@@ -2,7 +2,7 @@
 
 This repository is for training for capistrano rsync.
 
-using [bradrak/capistrano-rsync](https://github.com/Bladrak/capistrano-rsync).
+using [bladrak/capistrano-rsync](https://github.com/Bladrak/capistrano-rsync).
 
 ## System dependencies
 
