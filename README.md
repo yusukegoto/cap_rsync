@@ -1,24 +1,17 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is for training for capistrano rsync
 
-Things you may want to cover:
+## System dependencies
 
-* Ruby version
+- Virtual Box
+- Vagrant
+- Ruby
 
-* System dependencies
+## Preparation
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+$ bundle install
+$ vagrant up
+$ cap staging deploy
+```

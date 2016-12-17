@@ -43,7 +43,9 @@ group :development do
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
   gem 'capistrano'
-  gem 'capistrano-rsync'
+  gem 'capistrano-deploy'
+  gem 'capistrano-bundler'
+  gem 'capistrano-rsync-bladrak'
   gem 'chef'
 end
 

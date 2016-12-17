@@ -30,3 +30,15 @@ end
     to "/opt/ruby/bin/#{cmd}"
   end
 end
+
+directory '/var/cap_rsync' do
+  user  'vagrant'
+  group 'vagrant'
+  mode  '0755'
+end
+
+execute '/usr/bin/gem install bundler --no-ri --no-rdoc'
+
+link '/usr/bin/bundle' do
+  to '/opt/ruby/bin/bundle'
+end
