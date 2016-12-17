@@ -2,7 +2,7 @@
 lock "3.7.1"
 
 set :application, "cap_rsync"
-# set :repo_url, ""
+set :repo_url, "."
 set :scm, :rsync
 
 # Default branch is :master
@@ -10,6 +10,8 @@ set :scm, :rsync
 
 # Default deploy_to directory is /var/www/my_app_name
 set :deploy_to, "/var/cap_rsync"
+
+append :linked_dirs, 'tmp/pids', 'tmp/sockets', 'log'
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
