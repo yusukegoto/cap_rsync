@@ -10,7 +10,7 @@ using [bradrak/capistrano-rsync](https://github.com/Bladrak/capistrano-rsync).
 - Vagrant
 - Ruby
 
-## Preparation
+## How to try
 
 ```bash
 $ bundle install
@@ -19,3 +19,5 @@ $ ssh-agent $SHELL
 $ ssh-add ./.vagrant/machines/default/virtualbox/private_key
 $ cap staging deploy
 ```
+
+After finishing, check it works on your browser with [http://192.168.33.10:3000](http://192.168.33.10:3000).
